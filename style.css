@@ -27,6 +27,12 @@ body
     margin-top: 0px;
   }
 
+#site-container
+  {
+    width: 775px;
+    justify-content: center;
+  }
+
 #site-header
   { position: absolute;
     top: 0;
@@ -49,7 +55,8 @@ body
 #site-content
   {
     color: black;
-  	max-width:625px;
+  	max-width:525px;
+    float: left;
   	background: #eae0c8;
   	margin: 125px auto;
   	padding: 30px;
@@ -66,4 +73,15 @@ body
     text-align: center;
     color: #E41433;
     font-weight: 300;
+    clear: both;
+  }
+
+#site-sidebar
+  {
+    color: black;
+    width: 220px;
+    border: 22px;
+    border-radius: 3px;
+    background: white;
+    float: right;
   }
