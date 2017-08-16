@@ -14,4 +14,5 @@
   <h1><?php bloginfo('title') ?></h1>
 </div>
 
-<div id="site-content">
+<div id="site-container">
+	<div id="site-content">
