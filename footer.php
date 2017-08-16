@@ -5,7 +5,14 @@
 </div> <!--- site container --->
 
 <div id="site-footer">
-  <p>&copy; Brad Theme</p>
+  <nav>
+    <ul>
+      <li><a href="">Home</a></li>
+  		<li><a href="">About</a></li>
+  		<li><a href="">Contact</a></li>
+    </ul>
+  </nav>
+  <div>&copy; Brad Theme</div>
 </div>
 
 
